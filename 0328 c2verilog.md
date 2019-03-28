@@ -1,5 +1,5 @@
-# c2verilog
-
+# c2veril
+* 採用https://github.com/cccbook/c2verilog
 ```
 git clone https://github.com/cccbook/c2verilog.git
 cd c2verilog/src
@@ -10,7 +10,7 @@ $make clean
 $make
 ```
 * Window MinGW maybe need to install make
-* Window msys2 no doubt need to install make (要將bin中所有沒副檔名的資料都刪除)
+* Window msys2 no doubt need to install make (git clone後要將bin中所有沒副檔名的資料都刪除)
 ```
 pacman -Ss make //查詢完整的make包
 pacman -S msys/make //直接安裝
