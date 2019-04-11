@@ -10,6 +10,12 @@ $make clean
 $make
 ```
 * Window MinGW maybe need to install make
+** After you install MINGW (https://sourceforge.net/projects/mingw/files/latest/download?source=files). 
+***  Set Environment variables: C:/MINGW/bin
+```
+mingw-get install gcc g++ mingw32-make
+```
+
 * Window msys2 no doubt need to install make (git clone後要將bin中所有沒副檔名的資料都刪除)
 ```
 pacman -Ss make //查詢完整的make包
